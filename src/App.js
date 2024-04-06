@@ -17,7 +17,7 @@ function App() {
       </p>
       {process.env.NODE_ENV === 'production' && (
         <>
-        <img src="/logo512.png" alt=""/>
+        <img src="/logo192.png" alt=""/>
         <img src={logo} alt="" />
         </>
       )}
